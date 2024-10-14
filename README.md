@@ -27,7 +27,7 @@ This AWS Lambda function detects text in images stored in an S3 bucket using AWS
    - Create an S3 bucket and upload the image you want to process (e.g., `city.png`).
 
 2. **DynamoDB Table**:
-   - Create a DynamoDB table named `images-metadata` with the primary key `id`.
+   - Create a DynamoDB table for storing detected text.
 
 3. **IAM Permissions**:
    - Ensure your Lambda function has the necessary IAM role with these permissions:
